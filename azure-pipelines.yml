@@ -28,7 +28,7 @@ steps:
 - task: PublishCodeCoverageResults@1
   inputs:
     codeCoverageTool: 'Cobertura' 
-    summaryFileLocation: '$(system.defaultWorkingDirectory)/**/target/site/coverage.xml'
-    reportDirectory: '$(system.defaultWorkingDirectory)/**/target/site/'
+    summaryFileLocation: '$(system.defaultWorkingDirectory)/**/target/site/cobertura/coverage.xml'
+    reportDirectory: '$(system.defaultWorkingDirectory)/**/target/site/cobertura/'
     failIfCoverageEmpty: true
 
