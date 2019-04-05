@@ -1,4 +1,4 @@
-package org.jacoco.examples.maven.java;
+package org.microsoft.examples.maven.java;
 
 import static org.junit.Assert.*;
 

@@ -1,3 +1,5 @@
 target/
-org.jacoco.examples.maven.java.iml
+org.microsoft.examples.maven.java.iml
 .idea
+.project
+.settings/
