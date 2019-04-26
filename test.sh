@@ -1,5 +1,7 @@
 #!/bin/sh
 
+rm -f ./jacoco.xml
+
 echo "********** Building docker image ***********"
 docker build -t mvnsample ./
 

@@ -3,3 +3,5 @@ org.microsoft.examples.maven.java.iml
 .idea
 .project
 .settings/
+jacoco.xml
+reporthtml/
